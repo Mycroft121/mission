@@ -3,23 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<style type="text/css">
-		body{
-			font: 14px "宋体";
-		}
-		img{
-			width: 300px;
-			height: 240px;
-		}
-		span{
-			font-weight: bold;
-			font-size: 20px;
-		}
-		.pic li{
-			margin-top: 13px;
-			list-style: none; 
-		}
-	</style>
 </head>
 <body>
 	<h1>网站一级标题</h1>
@@ -46,18 +29,18 @@
 		<li>列表项目三</li>
 	</ul>
 	<span>图片</span>
-	<ul class="pic">
-		<li><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></li>
-		<li><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></li>
-		<li><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></li>
-		<li><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></li>
-		<li><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></li>
-		<li><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></li>
-		<li><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></li>
-		<li><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></li>
-		<li><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></li>
-		<li><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></li>
-	</ul>
+	<dt>
+		<dd><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></dd>
+		<dd><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></dd>
+		<dd><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></dd>
+		<dd><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></dd>
+		<dd><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></dd>
+		<dd><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></dd>
+		<dd><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></dd>
+		<dd><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></dd>
+		<dd><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></dd>
+		<dd><div>好看的图片</div><div><img src="http://i1.sinaimg.cn/IT/cr/2009/1231/3001336294.jpg"></div></dd>
+	</dt>
 	<h2>最后一篇文章一级标题</h2>
 	<h2>文章二级标题</h2>
 	<p>文章作者 文章发表时间</p>
@@ -109,15 +92,17 @@
 		<br />
 		<br />
 		请输入密码:
-		<input type="password" name="password1" placeholder="这是一个文本输入框" />
+		<input type="text" name="password1" placeholder="这是一个文本输入框" />
 		请重复输入密码:
-		<input type="password" name="password2" placeholder="这是一个文本输入框" />
+		<input type="text" name="password2" placeholder="这是一个文本输入框" />
 		<br />
 		<br />
 		密码为6-16位英文数字
 		<br />
 		<br />
-		性别:<input type="radio" name="sex" value="male" checked="checked">男<input type="radio" name="sex" value="female">女 城市:<select name="cities"><option value="beijing">北京</option><option value="shanghai">上海</option><option value="guangzhou">广州</option></select>爱好:<input type="checkbox" name="yundong" />运动<input type="checkbox" name="yishu" />艺术<input type="checkbox" name="kexue" />科学 个人描述:<textarea>这是一个多行输入框，输入您的个人描述</textarea><input type="submit" name="tijiao" value="确认提交" />
+		性别:<input type="radio" name="sex" value="male" checked="checked">男<input type="radio" name="sex" value="female">女 城市:<select name="cities"><option value="beijing">北京</option><option value="shanghai">上海</option><option value="guangzhou">广州</option></select>
+		爱好:<input type="checkbox" name="yundong" />运动<input type="checkbox" name="yishu" />艺术<input type="checkbox" name="kexue" />科学 
+		个人描述:<textarea>这是一个多行输入框，输入您的个人描述</textarea><input type="submit" name="tijiao" value="确认提交" />
 	</form>
 	<footer>版权所有&copy</footer>
 </body>
