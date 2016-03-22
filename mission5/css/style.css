@@ -1,0 +1,161 @@
+p,h1,h2,h3,h4,ul,ol{font-family: "微软雅黑";font-style: normal;}
+h3{color: #6a6a6a;}
+h4{color: #80716e;}
+
+body{
+	margin: 0px;
+	background: #dedede;
+}
+.header{
+	height: 60px;
+	background: #333333;
+	z-index: 10;
+	overflow: hidden;
+}
+.header img{
+	height: 40px;
+	margin: 10px 40px;
+}
+nav{
+	float: right;
+}
+nav ul{
+	margin: 10px 16px;
+}
+nav li{
+	float: left;
+	margin: 10px;
+}
+
+section{
+	width: 100%;
+}
+.box{
+	border: 1px solid #cbcbcb;
+	margin: 20px 20px 0px 20px;
+	padding: 20px;
+	background: #fff;
+	box-shadow: 2px 2px 2px #a1a1a1;
+}
+p{
+	text-indent: 2em;
+	line-height: 30px;
+}
+.box img{
+	width: 300px;
+	height: 246px;
+}
+
+ul{
+	list-style: none; 
+}
+
+
+.pic{
+	border: 1px solid #cbcbcb;    
+	width: 120px;
+	height: 124px;
+	display: inline-block;
+	padding: 5px;
+	margin: 10px;
+}
+.pic figcaption{
+	font-size: 13px;
+	line-height: 33px;
+	text-align: center;
+	margin: 0px;
+}
+.pic img{
+	width: 100px;
+	height: 80px;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+section table{
+	width:100%;
+	border-collapse:collapse;
+}
+section td,section th{
+	border: 1px solid #a1a1a1;
+}
+section .tr_01{
+	background: #333;
+	color: #fff;
+}
+section .tr_02{
+	background: #a1a1a1;
+	color: #000;
+	font-weight: bold;
+}
+
+.sidebar{
+	height: 40px;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 40px;
+	padding-left: 10px;
+	border-left: 3px solid #cecece;
+}
+
+aside .box{
+    width: 360px;
+    margin-left: 0;
+}
+
+aside .aside_label{
+    display: inline-block;
+    font-size: 12px;
+    width: 30%;
+    margin:0 10px;
+    text-align: right;
+}
+aside input{border: 1px solid #999;
+}
+aside textarea{border: 1px solid #999;
+    width: 60%;
+    vertical-align: top;
+}
+.asideRow{
+    margin: 10px 0;
+}
+.sideForm{
+    margin: 20px;
+}
+.hint{
+    color: #aaa;
+    font-size: 14px;
+    top: -6px;
+    position: relative;
+}
+aside button{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #35d;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+footer{
+	clear: both;
+	width: 100%;
+	height: 70px;
+	background: #000;
+	color: #fff;
+}
+.copyrights{
+	display: block;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 14px;
+}
+
+#wrap{
+    background-color: #dedede;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
