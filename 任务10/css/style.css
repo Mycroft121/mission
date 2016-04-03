@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.item{
+	width: 150px;
+	border: 1px solid #f00;
+	/*padding: 20px;*/
+	margin: 20px;
+	padding: 0;
+}
+.item1{
+	height: 120px;
+}
+.item2{
+	height: 100px;
+}
+.item3{
+	height: 40px;
+}
+.item4{
+	height: 200px;
+	border-color: #0f0;
+}
+@media (max-width: 640px) {
+	.flex-container{
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+	.item4{
+		order: -1;
+	}
+}
